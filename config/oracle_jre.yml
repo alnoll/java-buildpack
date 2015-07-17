@@ -21,7 +21,7 @@
 
 jre:
   version: 1.8.0_51
-  repository_root: "https://www.dropbox.com/sh/4ov7pi6pxs06hbu/AABu4mHrblfhTScnvCGM2kjsa"
+  repository_root: "https://repo.swisscom.com/svn/main/developement/anoll"
 memory_calculator:
   version: 1.+
   repository_root: "{default.repository.root}/memory-calculator/{platform}/{architecture}"
