@@ -19,7 +19,8 @@
 jre:
   version: 1.8.0_+
 #  repository_root: ! '{default.repository.root}/openjdk/{platform}/{architecture}'
-#  repository_root: ! 'https://www.dropbox.com/s/25gtkh4ajtwzcma/jdk-8u51-linux-x64.tar.gz'  repository_root: ! 'https://download.run.pivotal.io/openjdk/trusty/x86_64/openjdk-1.8.0_51.tar.gz'
+#  repository_root: ! 'https://www.dropbox.com/s/25gtkh4ajtwzcma/jdk-8u51-linux-x64.tar.gz'      
+repository_root: ! 'https://download.run.pivotal.io/openjdk/{platform}/{architecture}'
 memory_calculator:
   version: 1.+
   repository_root: ! '{default.repository.root}/memory-calculator/{platform}/{architecture}'
