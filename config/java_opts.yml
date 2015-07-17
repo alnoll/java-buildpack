@@ -16,4 +16,4 @@
 # JAVA_OPTS configuration
 ---
 from_environment: false
-java_opts: -XX:+UnlockCommercialFeatures -XX:+FlightRecorder
+java_opts: -XX:ReservedCodeCacheSize=100m
